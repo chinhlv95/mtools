@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Content Mapping</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 40;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts6">Content mapping - khớp dữ liệu</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p>Admin</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts2">C</span><span class="ts2">ho phép mapping lại</span><span class="ts2">&nbsp;các </span><span class="ts2">dữ liệu khác nhau quy về&nbsp; 1 tập khái niệm</span><span class="ts2">&nbsp;dùng chung cho tất cả các dự án của công ty</span></p>
+        <p><span class="ts2">Setting type có các loại sau: </span></p>
+        <p><span class="ts2">&nbsp;- Status</span></p>
+        <p><span class="ts2">&nbsp;- Tracker</span></p>
+        <p><span class="ts2">&nbsp;- Priority</span></p>
+        <p><span class="ts2">&nbsp;- Bug weight</span></p>
+        <p><span class="ts2">&nbsp;- Bug type</span></p>
+        <p><span class="ts2">&nbsp;- Root cause</span></p>
+        <p><span class="ts2">&nbsp;- Activities</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts2">Khi đồng bộ dữ liệu về, tính năng đồng bộ sẽ lấy tất cả các thông tin liên quan đến ticket và khai báo công số lưu vào hệ thống, Admin cần phải vào màn hình này để chọn các nguồn dữ liệu (</span><span class="ts0">&nbsp;Source</span><span class="ts2">) để thực hiện mapping lại. Trường hợp chưa thực hiện mapping thì giá trị hiển thị mặc định là </span><span class="ts0">To be define. </span><span class="ts2">Người dùng khi phát hiện ra giá trị này phải liên hệ với admin để họ cấu hình lại cho đúng hơn.</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p><img width="1045" height="244" border="0" src="images/image(10).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p>Icon edit- để sửa lại nội dung mapping giữa tool với dữ liệu từ các nguồn khác: Redmine, Backlog</p>
+        <p>Create new- Định nghĩa thêm các giá trị cho tool, ví dụ như tạo giá trị cho status mới</p>
+        <p><img width="686" height="160" border="0" src="images/image(11).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts0">1. </span><span class="ts0">Quy tắc mapping dữ liệu giữa các hệ thống</span></p>
+        <p>&nbsp;</p>
+        <p><span class="ts2">Vì các hệ thống khác nhau có thể sử dụng giá trị khác nhau, ví dụ Tracker trên GDO thì khác với Backlog của IDOM:</span></p>
+        <p>&nbsp;</p>
+        <div align="center">
+          <table class="tbl2">
+            <tr class="row0">
+              <td class="cell18">
+                <p><span class="ts2">Tracker trên GDO redmine</span></p>
+              </td>
+              <td class="cell19">
+                <p><span class="ts2">Tracker trên GDO redmine</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell18">
+                <p><img width="426" height="303" border="0" src="images/image(7).png" /></p>
+              </td>
+              <td class="cell19">
+                <p><img width="510" height="262" border="0" src="images/image(8).png" /></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><span class="ts2">&nbsp;</span><span class="ts6">2. Tạo giá trị mới</span></p>
+        <p>&nbsp;</p>
+        <p>Khi khởi tạo hệ thống, chúng tôi đã thiết lập các giá trị mặc định cho các setting type, những giá trị này liên quan đến việc thống kê và làm báo cáo vì thế không thể cho phép xóa các giá trị mặc định khởi tạo ban đầu.</p>
+        <p>&nbsp;</p>
+        <p>Admin được phép thêm mới và sửa hoặc xóa những loại dữ liệu được thêm vào, khi chọn source Mtool, bạn sẽ thấy nút Create để tạo thêm giá trị cho các nội dung:</p>
+        <p><span class="ts2">&nbsp;- Status</span></p>
+        <p><span class="ts2">&nbsp;- Tracker</span></p>
+        <p><span class="ts2">&nbsp;- Priority</span></p>
+        <p><span class="ts2">&nbsp;- Bug weight</span></p>
+        <p><span class="ts2">&nbsp;- Bug type</span></p>
+        <p><span class="ts2">&nbsp;- Root cause</span></p>
+        <p><span class="ts2">&nbsp;- Activities</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

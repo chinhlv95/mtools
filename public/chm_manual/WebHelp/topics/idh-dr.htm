@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Defect report</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 200;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p>Defect report- Báo cáo lỗi</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p>All members</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p>Theo dõi và phân tích về lỗi trong dự án</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p>Xem và lập báo cáo về chất lượng</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p>&nbsp;</p>
+        <p><img width="979" height="318" border="0" src="images/image(28).png" /></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p>Search, Reset, Import, Export</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts6">Giao diện search</span></p>
+        <p>- Department, Division, Team, Project để giúp tìm kiếm dự án. Cần lựa chọn 1 dự án cụ thể mới xem được báo cáo lỗi</p>
+        <p>- Units of time: đơn vị thời gian muốn hiển thị báo cáo, có các giá trị Day, Week, Month</p>
+        <p>- Bug: đơn vị tính của lỗi, có 2 giá trị: Number of bug- tính theo số lỗi, Weight bug- tính theo trọng số lỗi</p>
+        <p>- Report type: loại báo cáo, có 3 loại: All - hiển thị tất cả các biểu đồ, By summary- là các biểu đồ thống kê tổng số lỗi, By time - là các biểu đồ thống kê lỗi theo thời gian.</p>
+        <p>- Khoảng thời gian xem báo cáo: có thể chọn luôn trong list có sẵn hoặc điền start date và end date.</p>
+        <p>&nbsp;</p>
+        <p><span class="ts6">Các loại báo cáo lỗi:</span></p>
+        <p>1. Báo cáo theo nguyên nhân gốc rễ của lỗi cho biết lỗi thường bi xuất hiện vì những nguyên nhân nào gây ra:</p>
+        <p><img width="1083" height="400" border="0" src="images/root%20cause.png" /></p>
+        <p>Tất cả các nguyên nhân đều gom thành 6 nhóm như sau:</p>
+        <div align="left">
+          <table class="tbl3">
+            <tr class="row0">
+              <td class="cell0">
+                <p class="ps0">Giá trị</p>
+              </td>
+              <td class="cell1">
+                <p class="ps0">Mô tả</p>
+              </td>
+            </tr>
+            <tr class="row1">
+              <td class="cell0">
+                <p>Requirements</p>
+              </td>
+              <td class="cell1">
+                <p>Lỗi gây ra bởi yêu cầu không đầy đủ hoặc không rõ ràng</p>
+              </td>
+            </tr>
+            <tr class="row1">
+              <td class="cell0">
+                <p>Design Error</p>
+              </td>
+              <td class="cell1">
+                <p>Thiết kế sai khác với yêu cầu đưa ra hoặc do thiết kế không rõ ràng, không đầy đủ</p>
+              </td>
+            </tr>
+            <tr class="row1">
+              <td class="cell0">
+                <p>Code Error</p>
+              </td>
+              <td class="cell1">
+                <p>Code sai khác với tài liệu thiết kế hoặc yêu cầu đưa ra, hoặc là code sai về cú pháp, cấu trúc bên trong</p>
+              </td>
+            </tr>
+            <tr class="row1">
+              <td class="cell0">
+                <p>Test Error</p>
+              </td>
+              <td class="cell1">
+                <p>Test được thiết kế không đúng ( sai khác với yêu cầu hoặc thiết kế) hoặc các bước chạy sai, cấu hình sai, nhập dữ liệu sai dẫn đến đăng lỗi sai</p>
+              </td>
+            </tr>
+            <tr class="row1">
+              <td class="cell0">
+                <p>Configuration</p>
+              </td>
+              <td class="cell1">
+                <p>Lỗi gây ra do môi trường hoặc dữ liệu cấu hình không đúng</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>Existing bug</p>
+              </td>
+              <td class="cell1">
+                <p>Lỗi đã xuất hiện trước đây và giờ lại xuất hiện lại</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>&nbsp;</p>
+        <p>2. Báo cáo theo trạng thái lỗi </p>
+        <p><img width="1057" height="397" border="0" src="images/status.png" /></p>
+        <p>Trạng thái lỗi gồm các trạng thái sau:</p>
+        <div align="left">
+          <table class="tbl3">
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">Status</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Mô tả</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">New</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Ticket mới tạo và chưa có người thực hiện</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">In progress</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Ticket đang được thực hiện</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">Resolved</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Ticket đã được xử lý xong và chờ test hoặc review</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">Feedback</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Người review hoặc test có điểm chưa rõ ràng cần xác nhận hoặc sửa thêm</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">Closed</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Ticket đã sửa hoặc thực hiện xong hoàn toàn</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p><span class="ts2">Reject</span></p>
+              </td>
+              <td class="cell3">
+                <p><span class="ts2">Ticket này không chấp nhận hoặc không đúng</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>&nbsp;</p>
+        <p>3. Báo cáo theo người tìm ra lỗi ( Created by- mặc định trên redmine hoặc backlog thì Creator là người tìm và log lỗi, lỗi tìm bởi khách hàng thì BSE sẽ là người log lỗi giúp khách hàng )</p>
+        <p><img width="1045" height="395" border="0" src="images/founder%202.png" /></p>
+        <p>&nbsp;</p>
+        <p>4. Báo cáo theo người sửa lỗi ( Assignee)</p>
+        <p><img width="1058" height="478" border="0" src="images/fixer.png" /></p>
+        <p>5. Báo cáo lỗi theo người gây ra lỗi hoặc lỗi thuộc về ai ( Who made defect)</p>
+        <p><img width="1056" height="412" border="0" src="images/mader.png" /></p>
+        <p>6. Báo cáo theo thời gian lỗi tìm được bởi dự án và lỗi tìm được sau khi bàn giao chính thức cho khách hàng ( Bug và Bug after release)</p>
+        <p>Báo cáo thể hiện cộng dồn của lỗi từ thời điểm bắt đầu đến khi kết thúc.</p>
+        <p><img width="1017" height="565" border="0" src="images/trend%20defect.png" /></p>
+        <p>Đường màu xanh lá cây là cồng dồn lỗi đội dự án tìm được</p>
+        <p>Đường màu xanh dương là cộng dồn lỗi tìm được sau khi bàn giao chính thức cho khách hàng</p>
+        <p>7. Báo cáo KPI lỗi</p>
+        <p>&nbsp;</p>
+        <p><img width="1064" height="585" border="0" src="images/bug%20kpi.png" /></p>
+        <p>&nbsp;</p>
+        <p>Đường màu xanh lá cây Total là cộng dồn tổng số lỗi tìm được</p>
+        <p>Đường màu vàng là cộng dồn tổng số lỗi đóng được</p>
+        <p>Đường màu xanh dương là số lỗi tìm được theo ngày</p>
+        <p>&nbsp;</p>
+        <p><span class="ts6">Import/ Export</span></p>
+        <p>Import defect: Bạn phải sử dụng đúng template do tool cung cấp để import các thông tin về Bug lên hệ thống. Xem sheet guideline. Download file <a href="http://confluence.seta-jp.com/download/attachments/16851429/Template_List_bug_import.xlsx?version=1&amp;modificationDate=1486007819000&amp;api=v2" class="hs1">ở đây</a></p>
+        <p>Export defect: Các thông tin trên màn hình search defect report sẽ được export ra file excel để giúp các dự án làm báo cáo.</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>Báo cáo lỗi được thực hiện đến từng dự án vì thế bạn phải chọn tên 1 dự án cụ thể để xem báo cáo lỗi ( không có trường hợp báo cáo tổng hợp ở mức team, division</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

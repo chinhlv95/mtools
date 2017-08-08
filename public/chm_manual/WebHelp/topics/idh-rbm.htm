@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Report by member</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 230;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;Report Productivity And Quality Member<span class="ts6">- Báo cáo năng xuất chất lượng theo member</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p>All members</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p>Xem và đánh giá năng suất, chất lượng của từng thành viên</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p>Bất cứ khi nào</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p><img width="1014" height="291" border="0" src="images/image(29).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p>Search</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts6">1. Search dữ liệu</span></p>
+        <p>Năng suất chất lượng của từng dự án hoặc các dự án trong Division hoặc Department.</p>
+        <p>Khoảng thời gian chọn sẵn từ list hoặc có thể chọn start date và end date.</p>
+        <p>&nbsp;</p>
+        <p><span class="ts6">2. Năng suất và chất lượng của Lập trình viên</span></p>
+        <p>Năng suất và chất lượng của những người được phân vai trò là Dev trong dự án</p>
+        <p><img width="1054" height="159" border="0" src="images/developer.png" /></p>
+        <p>Phần Common data là dữ liệu thống kê chi tiết theo member:</p>
+        <p>- LOC: tổng số dòng code viết được ( công thức tính LOC được tính thay đổi theo từng loại dự án và được tính toán, quy ước trước khi nhập vào tool)</p>
+        <p>- Workload (mm): là tổng thời gian khai báo công số của thành viên đó trên các công cụ quản lý task, đơn vị tính theo tháng làm việc</p>
+        <p>- Assigned Bug (weighted):&nbsp; Tổng trọng số lỗi mà thành viên được phân công sửa lỗi có thể là lỗi của mình gây ra hoặc lỗi của người khác</p>
+        <p>- Made Bug ( weighted): Tổng trọng số lỗi mà thành viên gây ra hoặc để lọt lỗi và bị QA hoặc Khách hàng tìm thấy. Chỉ số này để nhấn mạnh vào việc tự kiểm tra, kiểm soát lỗi của người làm ra sản phẩm</p>
+        <p>- Task: số task được phân công thực hiện trong dự án, tính tất cả các loại công việc khác nhau</p>
+        <p>&nbsp;</p>
+        <p>Productivity: các chỉ số sau để tính năng suất cho Developer:</p>
+        <p>- KLOC/mm: Năng suất viết code tính số dòng code ( KLOC=1000 LOC) trong 1 tháng</p>
+        <p>- Assigned Bug/ mm: Năng suất sửa lỗi trong 1 tháng</p>
+        <p>- Task/mm: Năng suất thực hiện các loại công việc trong 1 tháng</p>
+        <p>&nbsp;</p>
+        <p>Quality: các chỉ số để tính chất lượng cho Developer:</p>
+        <p>- Made Bug/ KLOC: mật độ lỗi để lọt trên 1000 dòng code</p>
+        <p>- Made Bug/ mm: Trung bình lỗi để lọt trong 1 tháng</p>
+        <p>&nbsp;</p>
+        <p><span class="ts6">3. Năng suất và chất lượng của QA</span></p>
+        <p>Năng suất chất lượng của QA ( với những người được phân vai trò role=QA trong dự án)</p>
+        <p><img width="1041" height="148" border="0" src="images/qa.png" /></p>
+        <p>&nbsp;</p>
+        <p>Common data: dữ liệu thống kê chi tiết theo từng người</p>
+        <p>- Test case creation: tổng số test case viết được, lấy dựa vào dữ liệu của trường Number of Test case với các Ticket có Activity = Make Test case</p>
+        <p>- Workload for create (mm): thời gian tạo test case, tính dựa vào công số có Activity = Make Test case ( tính theo man month)</p>
+        <p>- Test case Execution: Tổng số test case chạy test, lấy dựa vào dữ liệu của trường Number of Test Case với các ticket có Activity = Test</p>
+        <p>- Workload for test (mm): thời gian chạy test, tính dựa vào công số có Activity = Test.</p>
+        <p>- Bug ( weighted): Tổng trọng số lỗi tìm được, tính dựa vào các ticket có Ticket Type ( Tracker) = Bug, và người tạo ticket Created by</p>
+        <p>Productivity:</p>
+        <p>- Test Case Creation/ mm: năng suất viết Test case, tính bằng tổng số Test case tạo ra trên công số tạo Test case ( tính theo man month)</p>
+        <p>- Test case Execution/ mm: năng suất chạy test, tính bằng tổng số Test case tạo ra trên công số tạo Test case ( tính theo man month)</p>
+        <p>Quality:</p>
+        <p>- Bug/1000TC: Chất lượng tìm được lỗi trên 1000TC, tính trên trọng số lỗi tìm được trên 1000TC được chạy</p>
+        <p>- Bug/mm: chất lượng tìm lỗi trên 1 tháng, tính trên trọng số lỗi tìm được trên 1 tháng thực hiện hiện test ( công số để chạy test) </p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

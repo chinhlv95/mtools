@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+
+/* progress bar */
+#progress-wrp {
+    padding: 1px;
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    text-align: left;
+    background: #e6d5d5;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+    height: 22px;
+}
+#progress-wrp .progress-bar{
+    height: 20px;
+    border-radius: 3px;
+    background-color: #5293b9;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+#progress-wrp .status{
+    top:3px;
+    left:50%;
+    position:absolute;
+    display:inline-block;
+    color: #000000;
+}
+#output .tbl-image-list{
+    font-size:13px;
+}
+
+.upload_message {
+    color:red;
+}
+.show{
+    display:block;
+}
+.hide{
+    display: none;
+}
+.title-update{
+    font-size: 14px;
+    font-weight: bold;
+}
+.sync_label{
+    font-size: 8px;
+}
+.tbody{
+    font-size: 12px;
+}
+.tbl-image-list input[type="checkbox"],a{
+    margin: 0;
+    vertical-align: bottom;
+}
+.tbl-image-list th{
+    text-align: center;
+}
+.action_delete_all{
+    text-align: right;
+}
+.action_delete_all input[name="deleteAll"],.btn-success{
+    position: inherit;
+    display:inline;
+    vertical-align: middle;
+    margin:0 0 0 3px;
+}
+.tbl-image-list td.action{
+    text-align: right;
+}
+.title-project-name
+{
+    font-weight: bold;
+}
+a.disabled {
+   pointer-events: none !important;
+   cursor: default !important;
+}
+
+.width250 {
+    min-width: 250px !important;
+}
+
+.width140 {
+    min-width: 140px !important;
+}
+
+.width80 {
+    min-width: 80px !important;
+}
+
+td.titleKpi{
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #c4c9d1 !important;
+}

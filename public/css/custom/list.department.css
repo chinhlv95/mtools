@@ -1,0 +1,29 @@
+#manager-name{
+    color: red;
+}
+
+#de-name{
+    font-weight: 900;
+    font-size: 13px;
+}
+
+#di-name{
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+#team-name{
+    font-weight: 100;
+    padding-left: 60px;
+}
+
+#action-icon{
+    text-align: center;
+}
+
+.icon-edit{
+}
+
+.icon-delete{
+    padding-left: 5px;
+}

@@ -1,0 +1,559 @@
+﻿p {
+  margin: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  text-indent: 0;
+  text-align: left;
+  line-height: normal;
+  font-family: 'Times New Roman';
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+map > area {
+  outline: none;
+}
+.ts0 {
+  font-weight: bold;
+  color: Black;
+}
+.ts1 {
+  font-weight: bold;
+}
+.ts2 {
+  color: Black;
+}
+.ts3 {
+  font-family: Tahoma;
+  color: Gray;
+  background-color: White;
+}
+.ts4 {
+  font-weight: bold;
+  color: Black;
+}
+.ts5 {
+  color: Black;
+}
+.ts6 {
+  font-weight: bold;
+}
+.ts7 {
+  font-style: italic;
+}
+.ts8 {
+  font-family: Calibri;
+  color: Black;
+}
+.ts9 {
+  font-family: 'Calibri CE';
+  color: Black;
+}
+.ts10 {
+  font-family: 'Calibri (Vietnamese)';
+  color: Black;
+}
+.ts11 {
+  font-family: Tahoma;
+}
+.ts12 {
+  font-family: Tahoma;
+  font-weight: bold;
+}
+.hs0 {
+  font-family: Tahoma;
+  text-decoration: underline;
+  color: Gray;
+  background-color: White;
+}
+.hs1 {
+  text-decoration: underline;
+  color: Blue;
+}
+.ps0 {
+  text-align: center;
+}
+.ps1 {
+  text-align: center;
+  font-size: 10pt;
+}
+.ps2 {
+  padding-bottom: 10pt;
+  line-height: 1.15;
+}
+.ps3 {
+  text-align: right;
+}
+.ps4 {
+  font-size: 11pt;
+}
+.ps5 {
+  padding-bottom: 10pt;
+  line-height: 1.15;
+  font-size: 11pt;
+}
+.ps6 {
+  padding-bottom: 10pt;
+  padding-left: 36pt;
+  text-indent: -18pt;
+  line-height: 1.15;
+  font-size: 11pt;
+}
+.ps7 {
+  padding-bottom: 10pt;
+  padding-left: 36pt;
+  line-height: 1.15;
+  font-size: 11pt;
+}
+.ps8 {
+  padding-bottom: 10pt;
+  padding-left: 36pt;
+  line-height: 1.15;
+}
+.ps9 {
+  padding-bottom: 10pt;
+  padding-left: 18pt;
+  line-height: 1.15;
+  font-size: 11pt;
+}
+.ps10 {
+  padding-bottom: 10pt;
+  padding-left: 18pt;
+  line-height: 1.15;
+}
+.block0 {
+  padding: 0 0 10pt 0;
+}
+.hline0 {
+  width: 100%;
+  height: 1px;
+  margin: 8px auto;
+  background-color: Silver;
+  border-style: none;
+}
+.tbl0 {
+  width: 641.9pt;
+  border-collapse: collapse;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row0 {
+  height: 15.25pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row1 {
+  height: 12.35pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row2 {
+  height: 24.7pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row3 {
+  height: 37.1pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row4 {
+  height: 61.8pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr.row5 {
+  height: 49.45pt;
+  border-style: none;
+}
+.tbl0 > tbody > tr > td.cell0 {
+  width: 33.1pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: #ccf;
+}
+.tbl0 > tbody > tr > td.cell1 {
+  width: 112pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: #ccf;
+}
+.tbl0 > tbody > tr > td.cell2 {
+  width: 114.35pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: #ccf;
+}
+.tbl0 > tbody > tr > td.cell3 {
+  width: 382.45pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: #ccf;
+}
+.tbl0 > tbody > tr > td.cell4 {
+  width: 33.1pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}
+.tbl0 > tbody > tr > td.cell5 {
+  width: 112pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}
+.tbl0 > tbody > tr > td.cell6 {
+  width: 114.35pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}
+.tbl0 > tbody > tr > td.cell7 {
+  width: 382.45pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}
+.tbl1 {
+  width: 424.55pt;
+  border-collapse: collapse;
+  border-style: none;
+}
+.tbl1 > tbody > tr.row0 {
+  height: 28.3pt;
+  border-style: none;
+}
+.tbl1 > tbody > tr.row1 {
+  height: 42.1pt;
+  border-style: none;
+}
+.tbl1 > tbody > tr.row2 {
+  height: 14.5pt;
+  border-style: none;
+}
+.tbl1 > tbody > tr.row3 {
+  height: 15.25pt;
+  border-style: none;
+}
+.tbl1 > tbody > tr > td.cell0 {
+  width: 120.85pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1.5pt;
+  border-color: Silver;
+  background-color: White;
+}
+.tbl1 > tbody > tr > td.cell1 {
+  width: 303.7pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1.5pt;
+  border-color: Silver;
+  background-color: White;
+}
+.tbl1 > tbody > tr > td.cell2 {
+  width: 120.85pt;
+  vertical-align: top;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-top-width: 1.5pt;
+  border-right-width: 1.5pt;
+  border-left-width: 1.5pt;
+  border-top-color: Silver;
+  border-right-color: Silver;
+  border-left-color: Silver;
+  background-color: White;
+}
+.tbl1 > tbody > tr > td.cell3 {
+  width: 303.7pt;
+  vertical-align: top;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-top-width: 1.5pt;
+  border-right-width: 1.5pt;
+  border-left-width: 1.5pt;
+  border-top-color: Silver;
+  border-right-color: Silver;
+  border-left-color: Silver;
+  background-color: White;
+}
+.tbl1 > tbody > tr > td.cell4 {
+  width: 120.85pt;
+  vertical-align: top;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-width: 1.5pt;
+  border-bottom-width: 1.5pt;
+  border-left-width: 1.5pt;
+  border-right-color: Silver;
+  border-bottom-color: Silver;
+  border-left-color: Silver;
+  background-color: White;
+}
+.tbl1 > tbody > tr > td.cell5 {
+  width: 303.7pt;
+  vertical-align: top;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-width: 1.5pt;
+  border-bottom-width: 1.5pt;
+  border-left-width: 1.5pt;
+  border-right-color: Silver;
+  border-bottom-color: Silver;
+  border-left-color: Silver;
+  background-color: White;
+}
+.tbl2 {
+  border-collapse: collapse;
+  border-style: none;
+}
+.tbl2 > tbody > tr.row0 {
+  border-style: none;
+}
+.tbl2 > tbody > tr > td.cell0 {
+  width: 78pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell1 {
+  width: 866.25pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell2 {
+  width: 78pt;
+  height: 15pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell3 {
+  width: 866.25pt;
+  height: 15pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell4 {
+  width: 78pt;
+  height: 69.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell5 {
+  width: 866.25pt;
+  height: 69.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell6 {
+  width: 78pt;
+  height: 57.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell7 {
+  width: 866.25pt;
+  height: 57.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell8 {
+  width: 78pt;
+  height: 41.25pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell9 {
+  width: 866.25pt;
+  height: 41.25pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell10 {
+  width: 78pt;
+  height: 15.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell11 {
+  width: 866.25pt;
+  height: 15.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell12 {
+  width: 96pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell13 {
+  width: 625.5pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell14 {
+  width: 96pt;
+  height: 15pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell15 {
+  width: 625.5pt;
+  height: 15pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell16 {
+  width: 96pt;
+  height: 69.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell17 {
+  width: 625.5pt;
+  height: 69.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell18 {
+  width: 321pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell19 {
+  width: 383.25pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell20 {
+  width: 78pt;
+  height: 16.5pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell21 {
+  width: 866.25pt;
+  height: 16.5pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell22 {
+  width: 78pt;
+  height: 30.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl2 > tbody > tr > td.cell23 {
+  width: 866.25pt;
+  height: 30.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 1px;
+  border-color: Black;
+}
+.tbl3 {
+  width: 572.15pt;
+  border-collapse: collapse;
+  border-style: none;
+}
+.tbl3 > tbody > tr.row0 {
+  height: 14.5pt;
+  border-style: none;
+}
+.tbl3 > tbody > tr.row1 {
+  height: 27.6pt;
+  border-style: none;
+}
+.tbl3 > tbody > tr > td.cell0 {
+  width: 77.4pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: White;
+}
+.tbl3 > tbody > tr > td.cell1 {
+  width: 494.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+  background-color: White;
+}
+.tbl3 > tbody > tr > td.cell2 {
+  width: 77.4pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}
+.tbl3 > tbody > tr > td.cell3 {
+  width: 494.75pt;
+  vertical-align: top;
+  border-style: solid;
+  border-width: 0.75pt;
+  border-color: Black;
+}

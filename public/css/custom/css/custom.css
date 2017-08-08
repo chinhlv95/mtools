@@ -1,0 +1,113 @@
+.main-header {
+  font-weight: 700;
+  background: #2B333C;
+  padding: 10px 15px;
+}
+
+.main-header .page-title h3 {
+  color: #fff;
+  font-size: 12px;
+}
+
+.table-bordered th {
+  background: #2B333C;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.table-bordered #permissions {
+  position: inherit;
+  margin-left: 5px;
+}
+
+.field-asterisk {
+  color: red;
+  margin-left: 2px;
+}
+
+#choose_item {
+  width: 40px;
+  padding: 0px;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.analys-tarbar label {
+  margin-top: 8px;
+}
+
+.fa.fa-trash-o {
+  font-size: 17px;
+}
+
+.fa.fa-user-plus {
+  font-size: 15px;
+}
+
+.project_name {
+  background: antiquewhite;
+  padding: 0 5px;
+}
+
+.search-bar .form-group {
+  margin-right: 10px;
+}
+
+.search-bar label {
+  margin-right: 5px;
+}
+
+.datepicker tr th, td {
+  font-size: 12px;
+}
+
+#responsiveTable tr td {
+  text-align: center;
+}
+
+#responsiveTable tr td.text-left {
+  text-align: left !important;
+}
+
+#responsiveTable tr td.text-right {
+  text-align: right;
+}
+
+#responsiveTable tr td.text-center {
+  text-align: center;
+}
+
+
+
+.qaTable tr td {
+  text-align: center;
+}
+
+.qaTable tr td.text-left {
+  text-align: left !important;
+}
+
+
+.developerData tr td {
+  text-align: center;
+}
+
+.developerData tr td.text-left {
+  text-align: left !important;
+}
+#breadcrumb{
+    position: relative;
+}
+#breadcrumb span.rLabel{
+    position: absolute;
+    top: 5px;
+    right: 3.5em;
+}
+.wordbold{
+    font-weight: bold;
+}
+/*# sourceMappingURL=custom.css.map */

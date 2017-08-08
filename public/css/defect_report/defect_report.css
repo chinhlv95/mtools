@@ -1,0 +1,10 @@
+.title_report{
+    font-size:18px;
+}
+#responsiveTable tr td{
+    text-align: center;
+}
+#responsiveTable tr th a{
+    color:#eee;
+}
+

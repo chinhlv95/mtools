@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Roles Management</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 20;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell0">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell1">
+        <p>Role Management- Quản lý phân quyền của hệ thống</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell2">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell3">
+        <p>Administrator</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell1">
+        <p>Cho phép admin của hệ thống có thể định nghĩa được các role khác nhau trong hệ thống.</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell1">
+        <p>Dùng khi set quyền sử dụng các tính năng trong hệ thống tương ứng với mỗi role</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell4">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell5">
+        <p><img width="1127" height="418" border="0" src="images/image(24).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Button</p>
+      </td>
+      <td class="cell1">
+        <p>Add New, Update, Delete</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell1">
+        <p>Button Add New: Cho phép tạo role mới.</p>
+        <p>Button Delete: Dùng để xóa role.</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell6">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell7">
+        <p><span class="ts5">1. Khi khởi tạo hệ thống, đã có 1 số role được hệ thống định nghĩa trước ví dụ như Admin, BSE VN, BSE JP, QA, QAL, DEV, DEVL... Những role này liên quan trực tiếp đến việc tính toán các chỉ số về năng suất và chất lượng của các thành viên chính trong dự án, vì thế không được xóa các role cơ bản này, chỉ được cập nhật lại các cấu hình chi tiết.</span></p>
+        <p><span class="ts5">2. Với các</span><span class="ts5">&nbsp;role </span><span class="ts5">đư</span><span class="ts5">ợc thêm mới, admin&nbsp; có thể cập nhật và xóa. Việc xóa 1 role nên hạn chế, nếu một&nbsp; người được phân vào role đã bị xóa thì mặc định người này sẽ mất quyền truy cập vào dự án theo role tương ứng.</span></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p class="ps2">&nbsp;</p>
+<div class="block0" align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell0">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell1">
+        <p>Tạo/ Update một role mới</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell2">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell3">
+        <p>Administrator</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell1">
+        <p>Dùng để tạo/ update role mới</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell1">
+        <p>&nbsp;Khi có yêu cầu phát sinh</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell4">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell5">
+        <p><img width="945" height="436" border="0" src="images/image(25).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Button</p>
+      </td>
+      <td class="cell1">
+        <p>Create, Reset, Cancel</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell8">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell9">
+        <p>Button Create: Dùng để tạo một role mới sau khi đã điền thông tin</p>
+        <p>Button Reset: Xóa hết dữ liệu đã nhập</p>
+        <p>Button Cancel: Dùng khi bạn không muốn create một role mới, sau khi click Cancel sẽ quay lại màn hình trước đó.</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell6">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell7">
+        <p>Nên đặt tên cho role mới không trùng với các role đã tạo. Các cấu hình nên được lựa chọn chi tiết để cho phép role này được phép thực hiện các hành động như view, create, update, delete, import, export.</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps2">&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

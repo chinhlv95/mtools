@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.form-inline .radio input[type=radio], .form-inline .checkbox input[type=checkbox]{
+    opacity: 0;
+    margin-left: -20px;
+    height: 0px;
+    margin-right: 0.5em;
+}
+.permission{
+    font-size: 14px;
+    padding: 10px 0px;
+    border-top: 1px #dcd1d1 solid;
+    border-bottom: 1px #dcd1d1 solid;
+    margin: 30px 0 20px 0;
+}
+#checkPerAll,#UncheckPerAll{
+    color: #759fcf;
+}
+#frmAddRole .panel-heading{
+    font-size: 1.5em;
+}

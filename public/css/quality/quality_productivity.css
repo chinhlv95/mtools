@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+#report-scroll-x{
+    overflow-x: scroll;
+}
+.projectReportTable tr th.info_data{
+    background: #efe7ad;
+    color: #000000;
+}
+.projectReportTable tr th.quality{
+    background: #ca8548;
+}
+.projectReportTable tr th.productivity{
+    background: #f93c52;
+}
+.hiddenTableReport {
+    display: none;
+}
+.developerData tr th.info_common{
+    background: rgb(118, 206, 101);
+}
+.developerData tr th.info_data{
+    background: #efe7ad;
+    color: #000000;
+}
+.developerData tr th.quality{
+    background: #ca8548;
+}
+.developerData tr th.productivity{
+    background: #f93c52;
+}
+.qaTable tr th.info_data{
+    background: #efe7ad;
+    color: #000000;
+}
+.qaTable tr th.quality{
+    background: #ca8548;
+}
+.qaTable tr th.productivity{
+    background: #f93c52;
+}
+
+#responsiveTable_wrapper .top .dataTables_length{
+    float: right !important;
+    text-align: right;
+}
+
+
+#devResponsiveTable_wrapper .top .dataTables_length{
+    float: right !important;
+    text-align: right;
+}
+
+#qaResponsiveTable_wrapper .top .dataTables_length {
+    float: right !important;
+    text-align: right;    
+} 
+
+.pagination li.active a, .pagination li.active a:focus, .pagination li.active a:hover{
+    background-color: #428bca;
+    border-color: #428bca;
+    box-shadow: none;
+}
+.projectReportTable caption{   
+    background-color: #eee; 
+    font-weight: bold;   
+}
+#qaResponsiveTable caption{   
+    background-color: #eee;    
+}
+
+#devResponsiveTable caption{    
+    background-color: #eee;    
+}
+
+#main_email.form-control.ui-autocomplete-input{
+  z-index: 5000 !important;
+}

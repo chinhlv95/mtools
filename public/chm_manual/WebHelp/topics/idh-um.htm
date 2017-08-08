@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Login and permission</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 30;
+</script>
+</head>
+<body>
+<p><span class="ts6">Login và phân quyền</span></p>
+<p><span class="ts1">&nbsp;</span></p>
+<p><span class="ts0">1. Thông tin đăng nhập:</span></p>
+<p><span class="ts2">Measurement tool không tạo hoặc quản lý bất cứ account nào. Toàn bộ account </span><span class="ts2">đăng nhập sẽ đồng nhất với </span><span class="ts2">Portal</span><span class="ts2">, vì thế nếu bạn quên hoặc nhập sai user hoặc password thì cần cập nhật trên site của portal: </span>http://portal.co-well.com.vn/home </p>
+<p><span class="ts7">&nbsp;</span></p>
+<p><span class="ts7">Lưu ý: vì measurement tool phải kết nối dữ liệu với nhiều hệ thống khác nhau nên chúng tôi đang dựa vào email co-well của bạn là 1 thông tin định dạng duy nhất để đồng bộ dự liệu, bạn phải đảm bảo rằng thông tin email của bạn là đúng và duy nhất trên các hệ thống như portal, redmine hoặc backlog.</span></p>
+<p>&nbsp;</p>
+<p><span class="ts6">2. Cấu trúc phân quyền</span></p>
+<p>&nbsp;</p>
+<p>Với cấu tổ chức của công ty hiện tại như sau:</p>
+<p>&nbsp;</p>
+<p><img width="567" height="320" border="0" src="images/organization.png" /></p>
+<p>&nbsp;</p>
+<p>Thì cấu trúc phân quyền của hệ thống sẽ tương tự:</p>
+<p><img width="738" height="337" border="0" src="images/image(2).png" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="ts6">3. Phân quyền cho user</span></p>
+<p><span class="ts6">a. Với member</span>: Danh sách user được đồng bộ từ portal về với role mặc định cho tất cả mọi người là Member, với role này các thành viên chưa thể nhìn được dự án nào cho đến khi họ được gán vào dự án</p>
+<p>&nbsp;</p>
+<p><span class="ts6">b. Với manager: </span>Hệ thống cũng tự động đồng bộ sơ đồ tổ chức của công ty từ portal về, bạn có thể xem được cấu trúc này ở màn hình Organization. Sơ đồ tổ chức sẽ cho biết ai là manager của đơn vị nào, hệ thống sẽ dựa vào các thông tin này để phân quyền tương ứng. Mặc định là manager được thực hiện tất cả các chức năng trên dự án mà họ nhìn thấy.</p>
+<p>Ví dụ: ông A là Division manager của Division X gồm các dự án B,C,D,E, vậy ông A sẽ có quyền tạo dự án trong Division X, quyền xem, chỉnh sửa tất cả thông tin của các dự án của Division X</p>
+<p>&nbsp;</p>
+<p><span class="ts6">c. Với Admin:</span>&nbsp;Hệ thống cho phép phân cho một member bất kỳ nào cũng có thể trở thành admin của hệ thống bằng cách vào chức năng <span class="ts6">User management</span>&nbsp;để edit role cho người đó. Admin có full quyền trên hệ thống.</p>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

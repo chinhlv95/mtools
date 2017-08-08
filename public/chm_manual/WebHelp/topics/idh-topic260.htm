@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Data gathering technical</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 260;
+</script>
+</head>
+<body>
+<p><span class="ts0">Kỹ thuật và các phương pháp lấy dữ liệu</span></p>
+<p><span class="ts1">&nbsp;</span></p>
+<p><span class="ts0">1. </span><span class="ts0">Các phương thức lấy dữ liệu vào hệ thống</span></p>
+<p><span class="ts1">&nbsp;</span></p>
+<p class="ps2"><img width="706" height="355" border="0" src="images/image(13).png" /></p>
+<p class="ps2">&nbsp;</p>
+<p class="ps2"><span class="ts6">1.1 Kỹ thuật lấy dữ liệu tự động crawler</span></p>
+<p class="ps2"><span class="ts5">Crawler có nhiệm vụ kéo dữ liệu từ các hệ thống khác về</span><span class="ts5">&nbsp;thông qua API đư</span><span class="ts5">ợc cung cấp sẵn bởi các hệ thống</span></p>
+<p class="ps2"><span class="ts5">Các thông tin đư</span><span class="ts5">ợc lấy về gồm có: toàn bộ các ticket, time entry, user's email và toàn bộ</span><span class="ts5">&nbsp;các data liên quan đ</span><span class="ts5">ến ticket ( version, category, bug type, bug weight, root cause, LOC, TC,…)</span></p>
+<p class="ps2"><span class="ts5">Crawler đư</span><span class="ts5">ợc chia ra làm 2 loại:</span></p>
+<p class="ps2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ts5">a. Crawler chạy lầ</span><span class="ts5">n đ</span><span class="ts5">ầu khi dự án bắ</span><span class="ts5">t đ</span><span class="ts5">ầ</span><span class="ts5">u đư</span><span class="ts5">ợc thiết lậ</span><span class="ts5">p đ</span><span class="ts5">ồng bộ. Nó sẽ chạy ngầm vào buổi đêm</span><span class="ts5">&nbsp;đ</span><span class="ts5">ể kéo toàn bộ dữ liệu của dự</span><span class="ts5">&nbsp;án tính đ</span><span class="ts5">ến thờ</span><span class="ts5">i đi</span><span class="ts5">ểm thiết lập về database</span></p>
+<p class="ps2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ts5">b. Crawler chạ</span><span class="ts5">y hàng ngày đ</span><span class="ts5">ể phát hiệ</span><span class="ts5">n ra các thông tin</span><span class="ts5">&nbsp;được cập nhật </span><span class="ts5">liên quan đ</span><span class="ts5">ế</span><span class="ts5">n ticket và time entry đ</span><span class="ts5">ể cập nhật lại về database</span></p>
+<p class="ps2"><span class="ts5">Cách thực hiệ</span><span class="ts5">n đ</span><span class="ts5">ồng bộ dữ liệu dự</span><span class="ts5">&nbsp;án đư</span><span class="ts5">ợc thực hiện ở phầ</span><span class="ts5">n Structure management, đ</span><span class="ts5">ể</span><span class="ts5">&nbsp;đ</span><span class="ts5">ảm bảo không lấy sai dự án thì chỉ các manager hoặ</span><span class="ts5">c admin đư</span><span class="ts5">ợ</span><span class="ts5">c hư</span><span class="ts5">ớng dẫ</span><span class="ts5">n đ</span><span class="ts5">ầ</span><span class="ts5">y đ</span><span class="ts5">ủ mới thực hiện việc này</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p class="ps2"><span class="ts4">1.2 Import dữ liệu</span></p>
+<p class="ps2"><span class="ts5">Measurement tool cung cấ</span><span class="ts5">p tính năng import đ</span><span class="ts5">ể giúp các dự</span><span class="ts5">&nbsp;án đang làm trên tool c</span><span class="ts5">ủa KH, không cung cấ</span><span class="ts5">p đư</span><span class="ts5">ợc quyên truy cậ</span><span class="ts5">p đ</span><span class="ts5">ể lấy dữ liệu tự</span><span class="ts5">&nbsp;đ</span><span class="ts5">ộng về.</span></p>
+<p class="ps2"><span class="ts5">Import dữ liệu cho 2 mục cost và bug và phải tuân theo template mà hệ thố</span><span class="ts5">ng quy đ</span><span class="ts5">ịnh</span></p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

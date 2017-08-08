@@ -1,0 +1,30 @@
+.width250{
+    min-width: 250px !important;
+}
+
+.width160{
+    min-width: 160px !important;
+}
+
+.width80{
+    min-width: 80px !important;
+}
+
+.width40{
+    min-width: 40px !important;
+}
+
+td.titleKpi{
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #c4c9d1 !important;
+}
+
+.row-action-kpi-2{
+    background-color: #3a414c !important;
+    color: #fff;
+}
+
+.row-action-kpi-2 a i {
+    color: #fff;'
+}

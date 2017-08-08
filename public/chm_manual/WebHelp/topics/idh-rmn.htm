@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Risk management</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.127)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?8038d80a"></script>
+<script type="text/javascript" src="../js/core.js?e3fa3091"></script>
+<script type="text/javascript" src="../js/topic.js?e3fa3091"></script>
+<script type="text/javascript">
+	var topicContext = 130;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;Quản lý rủi ro: thêm mới, cập nhật và tìm kiếm rủi ro</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p class="ps4"><span class="ts8">&nbsp;BSE, DEVL, QAL</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p class="ps4"><span class="ts8">&nbsp;Cho phép đăng ký và quản lý các rủi ro của dự án</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p class="ps4"><span class="ts8">&nbsp;Hàng ngày</span></p>
+        <p class="ps4"><span class="ts8">&nbsp;Trong các buổi họp của dự án</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p class="ps4"><span class="ts8">Tạo hoặc cập nhật thông tin rủi ro</span></p>
+        <p class="ps0"><img width="672" height="589" border="0" src="images/new%20risk.png" /></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Các trường thông tin cần thiết để quản lý rủi ro:</p>
+        <div align="center">
+          <table class="tbl2">
+            <tr class="row0">
+              <td class="cell47">
+                <p class="ps0">Trường</p>
+              </td>
+              <td class="cell48">
+                <p class="ps0">Mô tả</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Category </p>
+              </td>
+              <td class="cell48">
+                <p>Phân loại, nhóm các rủi ro </p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Risk title </p>
+              </td>
+              <td class="cell48">
+                <p>Mô tả ngắn gọn rủi ro, cần nổi bật lên khả năng gây ảnh hưởng đến dự án, tránh trường hợp mô tả chung chung rất khó xác định được mức độ ảnh hưởng (Impact) và xác suất xảy ra (probability).</p>
+                <p>Ví dụ: &quot;Rủi ro đến từ khách hàng&quot; mô tả chung như vậy rất khó phân tích, nên viết rõ là &quot; Khách hàng không phân người giữ vai trò support dự án để confirm spec&quot; hoặc bất cứ rủi ro nào cụ thể hơn.</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Probability(%) </p>
+              </td>
+              <td class="cell48">
+                <p>Xác suất xảy ra rủi ro từ 1-100%</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Impact</p>
+              </td>
+              <td class="cell48">
+                <p>Mức độ ảnh hưởng từ 1-5</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Level</p>
+              </td>
+              <td class="cell48">
+                <p>Risk level được tự động tính toán bằng Probability(%) * Impact, Risk level để giúp sắp xếp thứ tự ưu tiên của rủi ro cần được xử lý</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell47">
+                <p>Strategy</p>
+              </td>
+              <td class="cell48">
+                <p>Chiến lược xử lý rủi ro gồm 4 giá trị:</p>
+                <p><span class="ts0">- Avoid- </span><span class="ts0">Tránh rủi ro:</span><span class="ts2">&nbsp;loại</span><span class="ts2">&nbsp;trừ nguyên nhân gây ảnh hưởng</span></p>
+                <p><span class="ts0">- Accept</span><span class="ts2">- </span><span class="ts0">Chấp nhận rủi ro</span><span class="ts2">: chấp nhận kết quả nếu rủi ro xảy ra</span></p>
+                <p><span class="ts0">- Tranfer- Thuyên chuyển rủi ro</span><span class="ts2">: luân phiên hậu quả rủi ro và giao trách nhiệm quản lý cho bên thứ ba.</span></p>
+                <p><span class="ts0">- Reduce-</span><span class="ts2">&nbsp;</span><span class="ts0">Giảm nhẹ rủi ro: </span><span class="ts2">việc giảm bớt ảnh hưởng một sự kiện rủi ro bằng việc</span><span class="ts2">&nbsp;cắt giảm những gì có thể khi sự cố xảy ra.</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell49">
+                <p class="ps4"><span class="ts8">Mitigation plan</span></p>
+              </td>
+              <td class="cell50">
+                <p class="ps4"><span class="ts8">Kế hoạch giảm nhẹ rủi ro, gồm các task công việc cần phải làm để giảm thiểu xác xuất sảy ra hoặc mực độ ảnh hưởng</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell49">
+                <p class="ps4"><span class="ts8">Related task ID</span></p>
+              </td>
+              <td class="cell50">
+                <p class="ps4"><span class="ts8">Nếu đã define task trên Redmine hoặc backlog thì điền link vào đây để dễ tham chiếu</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell49">
+                <p class="ps4"><span class="ts8">Action status</span></p>
+              </td>
+              <td class="cell50">
+                <p class="ps4"><span class="ts8">Trạng thái của các hành động được xác định trong Mitigation plan</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p class="ps4"><span class="ts8">Save- Lưu lại thành nội dung của rủi do</span></p>
+        <p class="ps4"><span class="ts8">Reset- Xóa toàn bộ nội dung đã nhập</span></p>
+        <p class="ps4"><span class="ts8">Go to list risk - Bỏ qua rủi ro này để về màn hình danh sách rủi ro</span></p>
+        <p class="ps4"><span class="ts8">Refer to other risk- Tham khảo các rủi ro của dự án khác</span></p>
+        <p class="ps4"><span class="ts8">&nbsp;</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p><span class="ts2">Mối quan hệ giữa mức độ ảnh hưởng (Impact), Xác xuất (Propability) và cách lựa chọn chiến lược phòng tránh rủi ro</span></p>
+        <p>&nbsp;</p>
+        <p><img width="566" height="364" border="0" src="images/image(19).png" /></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

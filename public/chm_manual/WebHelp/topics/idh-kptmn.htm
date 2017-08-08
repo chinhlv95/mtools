@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>KPT management</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.127)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?8038d80a"></script>
+<script type="text/javascript" src="../js/core.js?e3fa3091"></script>
+<script type="text/javascript" src="../js/topic.js?e3fa3091"></script>
+<script type="text/javascript">
+	var topicContext = 150;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p>Quản lý KPT ( Keep-Problem-Try)</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p>BSE, QAL, DEVL</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p>Lưu giữ và quản lý các KPT sau các buổi họp rút kinh nghiệm hoặc trong quá trình thực hiện cần lưu lại các vấn đề cho việc cải tiến</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p>Trong cuộc họp kết thúc giai đoạn</p>
+        <p>Trong cuộc họp phân tích và cải tiến (analysis meeting)</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p>Mỗi hoạt động Keep, Problem, Try cần log lại thành 1 KPT để dễ quản lý</p>
+        <p><img width="760" height="641" border="0" src="images/kpt.png" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p>Save- Lưu lại nội dung KPT</p>
+        <p>Save and continue- Lưu lại và mở ra màn hình tạo mới KPT khác</p>
+        <p>Reset- Xóa nội dung đang nhập</p>
+        <p>Cancel- Bỏ qua </p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p>Các trường thông tin trong KPT bao gồm</p>
+        <p>&nbsp;&nbsp; </p>
+        <div align="center">
+          <table class="tbl2">
+            <tr class="row0">
+              <td class="cell51">
+                <p class="ps0"><span class="ts6">Trường</span></p>
+              </td>
+              <td class="cell52">
+                <p class="ps0"><span class="ts6">Mô tả</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell51">
+                <p>&nbsp;Version</p>
+              </td>
+              <td class="cell52">
+                <p>&nbsp;Thuộc vào giai đoạn hay release nào mà KPT này xuất hiện. Nêu bạn chưa khai báo version trong phần [Version management] thì không có giá trị nào ở đây</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell51">
+                <p>Category</p>
+              </td>
+              <td class="cell52">
+                <p>Thuộc vào loại hoặc nhóm nào. Gồm có các nhóm sau:</p>
+                <p>Communication - Giao tiếp</p>
+                <p>Technology - Kỹ thuật</p>
+                <p>Quality - Chất lượng</p>
+                <p>Requirement - Yêu cầu</p>
+                <p>Customer - Khách hàng</p>
+                <p>Resources - Resource</p>
+                <p>Funding - Ngân quỹ</p>
+                <p>Plan - Kế hoạch</p>
+                <p>Estimation - Ước lượng</p>
+                <p>Control - Kiểm soát</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell51">
+                <p>Type</p>
+              </td>
+              <td class="cell52">
+                <p>Loại nào:</p>
+                <p>Keep - Các điểm tốt cần duy trì và mở rộng thực hiện nhiều hơn nữa</p>
+                <p>Problem- Các vấn đề xấu của dự án cần có hành động cải tiến trong thời gian tới</p>
+                <p>Try - Có những ý kiến mới cần thử nghiệm để cải tiến dự án</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell51">
+                <p>Status</p>
+              </td>
+              <td class="cell52">
+                <p>Trạng thái thực hiện các hành động của KPT:</p>
+                <p>Not start - Chưa bắt đầu</p>
+                <p>Inprogress- Đang tiến hành</p>
+                <p>Closed- Đã thực hiện và hoàn thành</p>
+                <p>Pending- Tạm hoãn không thực hiện nữa</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell51">
+                <p>Description</p>
+              </td>
+              <td class="cell52">
+                <p>Mô tả nội dung KPT</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell53">
+                <p>Action</p>
+              </td>
+              <td class="cell54">
+                <p>Các hành động cần thực hiện cho giai đoạn tới</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

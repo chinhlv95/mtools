@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>KPI management</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.127)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?8038d80a"></script>
+<script type="text/javascript" src="../js/core.js?e3fa3091"></script>
+<script type="text/javascript" src="../js/topic.js?e3fa3091"></script>
+<script type="text/javascript">
+	var topicContext = 160;
+</script>
+</head>
+<body>
+<div align="center">
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell12">
+        <p>Tên tính năng</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;KPI management- Quản lý các chỉ số của dự án</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell14">
+        <p>Người dùng</p>
+      </td>
+      <td class="cell15">
+        <p>&nbsp;BSE, QAL, DEVL</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Mục đích</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;-Theo dõi và kiểm soát các chỉ số về chi phí, chất lượng, năng suất của dự án để đưa ra các quyết định phù hợp</p>
+        <p>&nbsp;- Baseline kết quả thực tế sau mỗi release hoặc mỗi phase</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Dùng khi nào</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;Hàng tuần</p>
+        <p>&nbsp;Khi kết thúc một giai đoạn hoặc dự án</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell16">
+        <p>Giao diện</p>
+      </td>
+      <td class="cell17">
+        <p>Nhập các thông tin để tìm báo cáo phù hợp:</p>
+        <p><img width="978" height="291" border="0" src="images/kpi%20search.png" /></p>
+        <p>&nbsp;</p>
+        <p>Thống kê các chỉ số KPI hàng tuần -hoặc hàng tháng theo Report Type</p>
+        <p><img width="1060" height="561" border="0" src="images/image(23).png" /></p>
+        <p>&nbsp;</p>
+        <p>Và hiển thị các biểu đồ theo dõi cho từng chỉ số:</p>
+        <p><img width="1051" height="518" border="0" src="images/kpi%20graph.png" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Button</p>
+      </td>
+      <td class="cell13">
+        <p>Search: Xem các KPI trong khoảng thời gian lựa chọn và theo week, month, baseline ( các thời điểm baseline)</p>
+        <p>Reset: Xóa các tiêu chí search</p>
+        <p>Create: Tạo 1 điểm baseline để lưu giữ lại các giá trị thực của các KPI và thiết lập mục tiêu mới cho giai đoạn tiếp theo</p>
+        <p>Sync Data: Đồng bộ và tính toán lại dữ liệu tính toán của quá khứ nếu có thêm các cập nhật mới. Ví dụ như import công số, bug cho các tháng đã qua.</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Giải thích</p>
+      </td>
+      <td class="cell13">
+        <p>Các chỉ số KPI có ý nghĩa và được tính toán như sau:</p>
+        <div align="center">
+          <table class="tbl3">
+            <tr class="row0">
+              <td class="cell0">
+                <p class="ps0"><span class="ts6">Chỉ số</span></p>
+              </td>
+              <td class="cell0">
+                <p class="ps0"><span class="ts6">Đơn vị</span></p>
+              </td>
+              <td class="cell0">
+                <p class="ps0"><span class="ts6">Công thức tính</span></p>
+              </td>
+              <td class="cell0">
+                <p class="ps0"><span class="ts6">Ý nghĩa</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell1" colspan="4">
+                <p>Nhóm chỉ số về chi phí</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>Cost efficiency</p>
+              </td>
+              <td class="cell0">
+                <p>%</p>
+              </td>
+              <td class="cell0">
+                <p>Total plan effort *100/ Total actual effort </p>
+              </td>
+              <td class="cell0">
+                <p>Đo đạc hiệu quả sử dụng chi phí của dự án so với ngân quy cho phép sử dụng.</p>
+                <p>Lớn hơn 100% là tốt</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>Fixing cost</p>
+              </td>
+              <td class="cell0">
+                <p>%</p>
+              </td>
+              <td class="cell0">
+                <p>Total actual fixing effort *100/ Total actual effort </p>
+              </td>
+              <td class="cell0">
+                <p>Tỷ lệ chi phi dành cho sửa lỗi trong dự án</p>
+                <p>Tỷ lệ này càng lớn chứng tỏ dự án mất nhiều thời gian phải làm lại</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0" colspan="4">
+                <p>Nhóm chỉ số về chất lượng</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>Leakage</p>
+              </td>
+              <td class="cell0">
+                <p>WDef/mm </p>
+              </td>
+              <td class="cell0">
+                <p>Tổng trọng số lỗi tìm được sau release/ công số của dự án (men month) </p>
+              </td>
+              <td class="cell0">
+                <p>Đo đạc chất lượng của sản phẩm sau khi bàn giao cho khách hàng</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>Bug after release (number)</p>
+              </td>
+              <td class="cell0">
+                <p>number</p>
+              </td>
+              <td class="cell0">
+                <p>Tổng số lượng lỗi có Type = Bug after release</p>
+              </td>
+              <td class="cell0">
+                <p>số lỗi để lọt sang khách hàng sau release</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p>Bug after release (weighted)</p>
+              </td>
+              <td class="cell2">
+                <p>weighted</p>
+              </td>
+              <td class="cell2">
+                <p>Tổng trọng số lỗi có Type= Bug after release</p>
+              </td>
+              <td class="cell2">
+                <p>Tổng trọng số lỗi lọt sang khách hàng sau release</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p>Customer survey</p>
+              </td>
+              <td class="cell2">
+                <p>point</p>
+              </td>
+              <td class="cell2">
+                <p>Tổng điểm khách hàng chấm trên survey</p>
+              </td>
+              <td class="cell2">
+                <p>Khảo sát mức độ hài lòng của khách hàng theo template của công ty (tổng điểm tối đa 100)</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p>Defect remove efficiency</p>
+              </td>
+              <td class="cell2">
+                <p>%</p>
+              </td>
+              <td class="cell2">
+                <p>Tỷ lệ lỗi tìm được trước release/ Tổng số lỗi của dự án</p>
+              </td>
+              <td class="cell2">
+                <p>Mức độ hiệu quả tìm lỗi của đội dự án trước khi bàn giao. Chỉ số này thường đạt cao lúc đầu và vào giai đoạn khách hàng thực hiện test sẽ thấp dần</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p>Defect rate</p>
+              </td>
+              <td class="cell2">
+                <p>WDef/mm </p>
+              </td>
+              <td class="cell2">
+                <p>Tổng trọng số lỗi tìm được /tổng công số của dự án (men month) </p>
+              </td>
+              <td class="cell2">
+                <p>Tỷ lệ lỗi tìm được so với công sức thực dự án</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2" colspan="4">
+                <p class="ps4"><span class="ts8">Nhóm chỉ số về năng suất</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Code productivity</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">LOC/mm</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Số dòng code/ 1 tháng</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Năng suất phát triển phần mềm của các lập trình viên ( LOC được đo trên sản phẩm đã test và sửa hết lỗi)</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Created test case productivity</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">TC/mm</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Số test case viết được/ 1 tháng</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Năng suất viết test case của các QA</span></p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Test productivity</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">TC/mm</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Số test case chạy test/ 1 tháng</span></p>
+              </td>
+              <td class="cell2">
+                <p class="ps4"><span class="ts8">Năng suất thực hiện test của QA</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell12">
+        <p>Chú ý</p>
+      </td>
+      <td class="cell13">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

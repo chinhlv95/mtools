@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- saved from url=(0025)http://www.helpsmith.com/ -->
+<head>
+<title>Common concepts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="HelpSmith 6.4 (Build 17.207)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  margin: 4.25pt 4.25pt 4.25pt 4.25pt;
+}
+</style>
+<link type="text/css" href="../css/topics/style.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?511adcc5"></script>
+<script type="text/javascript" src="../js/core.js?20bd9679"></script>
+<script type="text/javascript" src="../js/topic.js?20bd9679"></script>
+<script type="text/javascript">
+	var topicContext = 270;
+</script>
+</head>
+<body>
+<p><span class="ts6">Các khái niệm được sử dụng chung cho hệ thống Measurement</span></p>
+<p>&nbsp;</p>
+<p>1<span class="ts6">. Đơn vị tính công số</span></p>
+<p>Hour (h)</p>
+<p>Men day (md)= 8h</p>
+<p>Men month (mm) =168h </p>
+<p>&nbsp;</p>
+<p><span class="ts6">2.&nbsp; Đơn vị tính trọng số của lỗi. Phân loại weighted defect như sau:</span></p>
+<div align="left">
+  <table class="tbl1">
+    <tr class="row0">
+      <td class="cell0">
+        <p>Bug Weight</p>
+      </td>
+      <td class="cell1">
+        <p>Description</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Low (1)</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi rất nhỏ và không ảnh hưởng gì đến tính năng của sản phẩm: GUI, grammar, message</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Medium (2)</p>
+      </td>
+      <td class="cell1">
+        <p>Tính năng nhỏ không làm việc được hoặc làm không đúng hoặc ghi chép thành tài liệu không đúng</p>
+      </td>
+    </tr>
+    <tr class="row1">
+      <td class="cell0">
+        <p>High (3)</p>
+      </td>
+      <td class="cell1">
+        <p>Tính năng lớn hoặc 1 thành phần của hệ thống không làm việc hoặc làm việc không đúng hoặc ghi chép thành tài liệu không đúng</p>
+      </td>
+    </tr>
+    <tr class="row2">
+      <td class="cell2">
+        <p>Serious (5)</p>
+      </td>
+      <td class="cell3">
+        <p>Tính năng lớn quan trọng của hệ thống không làm việc</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell4">
+        <p>&nbsp;</p>
+      </td>
+      <td class="cell5">
+        <p>Các yêu cầu về đặc tính chất lượng không thỏa mãn như:&nbsp; performance effects, security problem</p>
+      </td>
+    </tr>
+    <tr class="row1">
+      <td class="cell0">
+        <p>Fatal (8)</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi fatal khi mà phần lớn tính năng hoặc các thành phần rất quan trọng của hệ thống bị sập. Việc thực hiện hoặc test không thể tiếp diễn khi xuất hiện lỗi này</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p><span class="ts6">3. Bug Type - loại lỗi</span></p>
+<p>&nbsp;</p>
+<div align="left">
+  <table class="tbl1">
+    <tr class="row3">
+      <td class="cell0">
+        <p>Name</p>
+      </td>
+      <td class="cell1">
+        <p>Description&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row3">
+      <td class="cell0">
+        <p>GUI</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi về giao diện, text, message, grammar, syntax</p>
+      </td>
+    </tr>
+    <tr class="row3">
+      <td class="cell0">
+        <p>FUN</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi về tính năng</p>
+      </td>
+    </tr>
+    <tr class="row3">
+      <td class="cell0">
+        <p>API</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi liên kết với các hệ thống khác</p>
+      </td>
+    </tr>
+    <tr class="row3">
+      <td class="cell0">
+        <p>Other</p>
+      </td>
+      <td class="cell1">
+        <p>Các lỗi khác</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p><span class="ts6">4. Bug root cause - Nguyên nhân gốc rễ của lỗi</span></p>
+<p>&nbsp;</p>
+<div align="left">
+  <table class="tbl1">
+    <tr class="row3">
+      <td class="cell0">
+        <p>Name</p>
+      </td>
+      <td class="cell1">
+        <p>Description&nbsp;</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Requirements</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi gây ra bởi yêu cầu không đầy đủ hoặc không rõ ràng</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Design Error</p>
+      </td>
+      <td class="cell1">
+        <p>Thiết kế sai khác với yêu cầu đưa ra hoặc do thiết kế không rõ ràng, không đầy đủ</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Code Error</p>
+      </td>
+      <td class="cell1">
+        <p>Code sai khác với tài liệu thiết kế hoặc yêu cầu đưa ra, hoặc là code sai về cú pháp, cấu trúc bên trong</p>
+      </td>
+    </tr>
+    <tr class="row1">
+      <td class="cell0">
+        <p>Test Error</p>
+      </td>
+      <td class="cell1">
+        <p>Test được thiết kế không đúng ( sai khác với yêu cầu hoặc thiết kế) hoặc các bước chạy sai, cấu hình sai, nhập dữ liệu sai dẫn đến đăng lỗi sai</p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell0">
+        <p>Configuration</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi gây ra do môi trường hoặc dữ liệu cấu hình không đúng</p>
+      </td>
+    </tr>
+    <tr class="row3">
+      <td class="cell0">
+        <p>Existing bug</p>
+      </td>
+      <td class="cell1">
+        <p>Lỗi đã xuất hiện trước đây và giờ lại xuất hiện lại</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="ps0"><br /></p>
+<div>
+  <div class="hline0"></div>
+</div>
+<p class="ps1"><span class="ts3">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts3">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts3">&nbsp;of the product.</span></p>
+</body>
+</html>

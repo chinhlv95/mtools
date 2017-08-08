@@ -1,0 +1,36 @@
+#dateForm{
+    margin-left: 16px;
+}
+
+.marginRight10{
+    margin-right: 10px;
+}
+
+#choose_time,#default_time{
+    margin-top: 2px;
+    left:0;
+}
+
+
+.datepicker table{
+    font-size: 13px; 
+}
+
+#form_heading{
+    font-weight: 700;
+    background: #2B333C;
+    color:#fff;
+}
+
+#form_body{
+    margin-top: 25px;
+}
+
+select{
+    font-size: 12px !important;
+    letter-spacing: 0.03em;
+}
+
+option{
+    font-size: 13px;
+}
